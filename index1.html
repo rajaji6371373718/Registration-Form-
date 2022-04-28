@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Your Educational Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+    
+  </head>
+  <body>
+<div class="container">
+    <form id="myForm" name="myForm" method="post" onsubmit="my_func2(event)" action="data/index1.html">
+
+<div class="tab" id = "tab-2">
+  <p>Education info:</p>
+  <div class="field">
+    <div class="label">HSC institution Name</div>
+     <input type="text" placeholder="institution Name">
+  </div> 
+  <div class="field">
+     <div class="label">HSC Board</div>
+     <select name="hsc" id="hsc" style="background:rgb(225,255,245)";>
+      <option>CBSE</option>
+      <option>ICSC</option>
+      <option>State Board</option>
+     </select>
+ </div> 
+ <div class="field">
+     <div class="label">Score in HSC in Percentage</div>   
+     <input type="number" name="hsc-mark" id="hsc-mark"> 
+ </div>   
+ <div class="field">
+     <div class="label">SSC institution Name</div>
+      <input type="text" placeholder="institution Name">
+   </div> 
+   <div class="field">
+      <div class="label">SSC Board</div>
+      <select name="ssc" id="ssc" style="background:rgb(225,255,245)";>
+       <option>CBSE</option>
+       <option>ICSC</option>
+       <option>State Board</option>
+      </select>
+  </div> 
+  <div class="field">
+      <div class="label">Score in HSC in Percentage</div>   
+      <input type="number" name="ssc-mark" id="ssc-mark"> 
+  </div>   
+  <div class="field">
+     <div class="label">Currently Persuing</div>
+      <input type="text" placeholder="">
+   </div> 
+   <div class="field">
+      <div class="label">Current educational institution name</div>
+      <input type="text" name="cp" id="cp">
+  </div> 
+  <div class="field">
+      <div class="label">Overall Percentage</div>   
+      <input type="number" name="c-mark" id="c-mark"> 
+  </div>   
+  <div class="field">
+     <div class="label">Current Backlogs if any</div>   
+     <input type="number" name="c-mark" id="c-mark"> 
+ </div>   
+  <div class="index-btn-wrapper">
+    <div class="index-btn" onclick="run(2, 1);">Previous</div>
+    <div class="index-btn" onclick="run(2, 3);">Next</div>
+  </div>
+</div>
+</form>
+</div>
+</body>
+<script src="registrationForm.js"></script>
+</html>
+
+
+
+
+
+

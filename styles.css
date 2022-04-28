@@ -1,0 +1,120 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: visible;
+  background: rgb(2,37,27);
+  background: linear-gradient(90deg, rgba(2,37,27,1) 0%, rgba(9,121,93,1) 40%, rgba(20,185,144,1) 74%, rgba(0,255,204,1) 100%);
+}
+
+
+
+.container{
+  width: 330px;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  background: linear-gradient(90deg,  rgba(20,185,144,1) 74%,rgba(0,255,204,1) 100%,rgba(2,37,27,1) 0%, rgba(9,121,93,1) 40%, );
+  text-align: left;
+  border-radius: 10px;
+  box-shadow: 4px 4px 25px 4px #022522;
+  padding: 20px 45px 0px 45px;
+}
+.container .tab p{
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+.container form{
+    display: inline;
+    text-align: left;
+  }
+  
+  
+.container .tab form
+{
+  display: flex;
+  width: 600%;
+  
+}
+.god{
+  width: 330px;
+  height: 45px;
+  font-size: 17.5px;
+  display: inline-flex;
+  letter-spacing: 2px;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 500; 
+  text-align: left;
+}
+.container .tab .field{
+  width: 330px;
+  height: 45px;
+  margin: 40px 0;
+  display: flex;
+  position: relative;
+}
+.container .tab .field .label{
+  position:absolute;
+  top: -30px;
+  font-family: 'Cairo', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 500;
+  
+}
+form .tab .field input{
+  height: 70%;
+  width: 100%;
+  border: 1px solid grey;
+  background-color: rgb(225, 255, 245);
+  border-radius: 10px;
+  padding-left: 5px;
+  margin-top: 5px;
+  font-size: 10px;
+  margin-right: 5px;
+}
+#textarea {
+  border: 1px solid grey;
+  background-color: rgb(225, 255, 245);
+
+}
+
+.index-btn-wrapper{
+  display:inline;
+  
+}
+
+.index-btn{
+  margin: 20px 15px 0 0;
+  background: #04db8c;
+  color: rgb(225,255,245);
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.index-btn:hover{
+  opacity: 0.8;
+}
+
+.step{
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  margin: 0 2px;
+  color: white;
+  background: green;
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.25;
+}
+select option{
+  background-color: rgb(225,255,245);
+  color:rgb(225,255,245);
+}
+
+
+span{
+  color: red;
+}
